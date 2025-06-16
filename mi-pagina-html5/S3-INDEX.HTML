@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Mi Página HTML5</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Mi Página HTML5 – Proyecto</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#multimedia">Multimedia</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>Bienvenida</h2>
+      <article>
+        <h3>Introducción</h3>
+        <p>Esta página usa <strong>HTML5</strong> y <em>CSS</em> para aprender etiquetas semánticas.</p>
+      </article>
+    </section>
+
+    <section id="multimedia">
+      <h2>Imágenes y Video</h2>
+      <img src="assets/img/luna roja.jpg" " alt="Fotografía de una luna roja brillante en el cielo nocturno" width="320">
+      <video src="assets/video/WhatsApp Video 2025-06-15 at 12.10.13 AM.mp4" controls width="320"></video>
+    </section>
+
+    <section id="listas-y-tabla">
+      <h2>Listas y Tabla</h2>
+      <h3>Lista ordenada</h3>
+      <ol>
+        <li>Primero</li>
+        <li>Segundo</li>
+      </ol>
+      <h3>Lista desordenada</h3>
+      <ul>
+        <li>Elemento A</li>
+        <li>Elemento B</li>
+      </ul>
+      <h3>Tabla de Datos</h3>
+      <table>
+        <thead>
+          <tr><th>Nombre</th><th>Edad</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Ana</td><td>22</td></tr>
+          <tr><td>Carlos</td><td>25</td></tr>
+          <tr><td>Luis</td><td>30</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contacto">
+      <h2>Formulario de Contacto</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" name="nombre" type="text" required><br><br>
+        <label for="correo">Correo:</label>
+        <input id="correo" name="correo" type="email" required><br><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section id="enlace">
+      <h2>Enlace Externo</h2>
+      <a href="https://developer.mozilla.org" target="_blank">Ir a MDN</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mi Página HTML5</p>
+  </footer>
+</body>
+</html>
